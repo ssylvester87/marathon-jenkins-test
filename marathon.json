@@ -1,5 +1,5 @@
 {
-	"id": "/product/service/myApp",
+	"id": "product/service/myApp",
     "cmd": "env && sleep 300",
     "cpus": 0.25,
     "mem": 4.0
