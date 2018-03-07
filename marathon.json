@@ -1,6 +1,14 @@
 {
-	"id": "myApp",
-    "cmd": "env && sleep 300",
-    "cpus": 0.25,
-    "mem": 4.0
+  "id": "/myApp",
+  "cmd": "env && sleep 100",
+  "instances": 1,
+  "cpus": 1,
+  "mem": 128,
+  "portDefinitions": [
+    {
+      "protocol": "tcp",
+      "port": 10000
+    }
+  ],
+  "requirePorts": false
 }
