@@ -1,5 +1,5 @@
 {
-  "id": "/myApp",
+  "id": "myApp",
   "cmd": "sleep 100",
   "instances": 1,
   "cpus": 1,
